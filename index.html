@@ -99,6 +99,71 @@
             </a>
         </div>
     </section>
+
+    <!-- Home Icon section   -->
+    <div id="home-icons" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cog fa-3x mb-2"></i>
+                    <h3>Turning gears</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, fuga.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cloud fa-3x mb-2"></i>
+                    <h3>Sending data</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, fuga.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cart-plus fa-3x mb-2"></i>
+                    <h3>Making money</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, fuga.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Home heading section -->
+
+    <section id="home-heading" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>Some cool motivation text</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+                            temporibus ratione quo quasi? Enim facilis corrupti, fugit cum velit consectetur!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- info section -->
+
+    <section id="info" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h3>Cool heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis voluptate aliquid
+                        consequuntur exercitationem rerum impedit, cupiditate fuga architecto eveniet adipisci!</p>
+                    <a href="#" class="btn btn-outline-danger btn-lg">Learn more</a>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <img src="./img/laptop.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- video play -->
+    <!--  -->
     <!-- Jquery minifed version -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -112,6 +177,14 @@
     <script>
         // Получаем год(который на компе) для footer copyright
         $("#year").text(new Date().getFullYear());
+
+
+        // slower slider
+
+        $(".carousel ").carousel({
+            interval: 6000,
+            pause: 'hover'
+        })
     </script>
 </body>
 
