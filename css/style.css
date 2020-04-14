@@ -85,3 +85,9 @@ body {
 #about img {
     margin-top: -50px;
 }
+
+@media(max-width:576px) {
+    #icon-boxes .row {
+        margin-bottom: 0 !important;
+    }
+}
