@@ -104,3 +104,19 @@ body {
 #services .container .col-md-4:nth-child(3) .list-group-item:nth-child(-n+5) i {
     color: green;
 }
+
+/* faq */
+
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+    background: #333;
+}
