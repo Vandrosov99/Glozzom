@@ -86,11 +86,7 @@ body {
     margin-top: -50px;
 }
 
-@media(max-width:576px) {
-    #icon-boxes .row {
-        margin-bottom: 0 !important;
-    }
-}
+
 
 /* services */
 #services .container .col-md-4:first-child .list-group-item:nth-child(-n+2) i {
@@ -119,4 +115,18 @@ body {
 #faq .card-body,
 #faq .card-header {
     background: #333;
+}
+
+
+/* footer */
+#main-footer {
+    background: #000;
+    color: #fff;
+}
+
+/* mobile smth */
+@media(max-width:576px) {
+    #icon-boxes .row {
+        margin-bottom: 0 !important;
+    }
 }
